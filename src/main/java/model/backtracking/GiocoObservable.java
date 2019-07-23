@@ -1,7 +1,5 @@
 package model.backtracking;
 
-import sun.plugin.dom.exception.InvalidStateException;
-
 import java.io.*;
 import java.util.Observable;
 import java.util.StringTokenizer;
@@ -68,7 +66,7 @@ public class GiocoObservable extends Observable {
 
     public void risolviGioco()
     {   if(gioco == null)
-            throw new InvalidStateException("Non è presente un'istanza di gioco");
+            throw new RuntimeException("Non è presente un'istanza di gioco");
 
         gioco.risolvi();
     }

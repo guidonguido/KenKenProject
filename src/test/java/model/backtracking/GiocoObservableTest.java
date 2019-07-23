@@ -72,7 +72,7 @@ public class GiocoObservableTest {
         return griglia;
     }
 
-    @Test(expected = InvalidStateException.class)
+    @Test(expected = RuntimeException.class)
     public void ArisolviGiocoNonInizializzato() {
         GiocoObservable gioco = GiocoObservable.getInstance();
         gioco.risolviGioco();

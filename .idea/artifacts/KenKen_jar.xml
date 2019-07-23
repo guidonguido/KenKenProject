@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="KenKen:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/KenKen</output-path>
+    <root id="archive" name="Code.jar">
+      <element id="module-output" name="Code" />
+    </root>
+  </artifact>
+</component>
