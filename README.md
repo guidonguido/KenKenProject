@@ -13,6 +13,7 @@ La scelta di utilizzare dei punti di scelta fissi, non tenendo in considerazione
 Secondo le regole del KenKen un numero è assegnabile ad una determinata cella se non è già presente nella relativa riga e colonna (validNumber) e se il suo inserimento non compromette il rispetto del vincolo della griglia in cui si trova (validCage). 
 
 **DESIGN PATTERN UTILIZZATI**
+
 *Template Method*
 La classe astratta Problema<P,S> implementa una versione iterativa della tecnica backtracking 
 nel metodo template risolvi().
